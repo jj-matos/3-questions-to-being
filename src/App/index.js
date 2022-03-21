@@ -1,3 +1,6 @@
+// Inspiration from 
+// https://blog.devgenius.io/create-a-multi-step-form-with-reactjs-322aa97a2968
+
 import * as React from 'react';
 
 import Steps from '../steps/';
@@ -55,7 +58,7 @@ const App = () => {
     <div className={style}>
       <div className="section" >
         <div className="container">
-          <div className='row full-height justify-content-center'>
+          <div className='full-height justify-content-center'>
             <div className="card-3d-wrap mx-auto">
               <div className="center-wrap">
                 <div className="section text-center">
@@ -83,4 +86,7 @@ const App = () => {
 }
 
 export default App;
+
+export { Steps };
+
 

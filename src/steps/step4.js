@@ -1,4 +1,4 @@
-import React from 'react'; 
+import * as React from 'react';
 
 const Step4= ({data}) => {
   return (
